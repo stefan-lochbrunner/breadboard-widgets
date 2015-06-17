@@ -4,3 +4,5 @@ Programming board suitable for ATtiny45/85 microcontrollers. Plugs into a breadb
 USB version pin compatible with uUSB breakout.
 
 ![alt tag](ATtiny prog board.sch.png)
+
+![alt tag](ATtiny prog board.brd.png)
