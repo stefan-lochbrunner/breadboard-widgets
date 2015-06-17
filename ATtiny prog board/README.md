@@ -3,6 +3,6 @@ https://hackaday.io/project/6332-breadboard-widgets/log/19613-attiny-prog-board 
 Programming board suitable for ATtiny45/85 microcontrollers. Plugs into a breadboards power rails to minimize required space.
 USB version pin compatible with uUSB breakout.
 
-![img](ATtiny prog board.sch.png =200x)
+![sch](ATtiny prog board.sch.png)
 
-![alt tag](ATtiny prog board.brd.png =200x)
+![brd](ATtiny prog board.brd.png)
