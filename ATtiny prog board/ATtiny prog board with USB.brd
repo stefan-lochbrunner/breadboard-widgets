@@ -139,6 +139,7 @@
 <wire x1="17.7675" y1="22.339859375" x2="15.987359375" y2="24.12" width="0" layer="20" curve="90"/>
 <wire x1="15.987359375" y1="24.12" x2="1.78899375" y2="24.12" width="0" layer="20"/>
 <wire x1="1.78899375" y1="24.12" x2="0" y2="22.33100625" width="0" layer="20" curve="90"/>
+<text x="15.875" y="12.065" size="1.778" layer="25">+</text>
 </plain>
 <libraries>
 <library name="dp_devices">
@@ -586,7 +587,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="DIP" library="SparkFun-DigitalIC" package="DIP08" value="" x="6.35" y="7.62" smashed="yes">
 <attribute name="PROD_ID" value="IC-09445" x="6.35" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.175" y="6.985" size="1.27" layer="27" ratio="10"/>
-<attribute name="NAME" x="1.5875" y="7.62" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="5.3975" y="6.6675" size="0.8128" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="ISP" library="SparkFun-Connectors" package="2X3" value="" x="16.51" y="19.05" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.145" y="14.9225" size="1.27" layer="25" ratio="10" rot="R180"/>

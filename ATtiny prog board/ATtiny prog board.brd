@@ -139,6 +139,7 @@
 <wire x1="17.7675" y1="19.799859375" x2="15.987359375" y2="21.58" width="0" layer="20" curve="90"/>
 <wire x1="15.987359375" y1="21.58" x2="1.78899375" y2="21.58" width="0" layer="20"/>
 <wire x1="1.78899375" y1="21.58" x2="0" y2="19.79100625" width="0" layer="20" curve="90"/>
+<text x="15.875" y="12.065" size="1.778" layer="25">+</text>
 </plain>
 <libraries>
 <library name="dp_devices">
@@ -609,9 +610,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="DIP" library="SparkFun-DigitalIC" package="DIP08" value="" x="6.35" y="7.62" smashed="yes">
 <attribute name="PROD_ID" value="IC-09445" x="6.35" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.175" y="6.985" size="1.27" layer="27" ratio="10"/>
-<attribute name="NAME" x="1.5875" y="7.62" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="5.3975" y="6.6675" size="0.8128" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="ISP" library="SparkFun-Connectors" package="2X3" value="" x="16.51" y="19.05" rot="R180"/>
+<element name="ISP" library="SparkFun-Connectors" package="2X3" value="" x="16.51" y="19.05" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.4625" y="14.9225" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="17.78" y="22.225" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="JP1" library="SparkFun-Connectors" package="1X06" value="" x="15.24" y="1.27" rot="R180">
 <attribute name="PROD_ID" value="CONN-08437" x="15.24" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -700,6 +704,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0" y="21.59"/>
 </polygon>
 <via x="13.0175" y="13.97" extent="1-16" drill="0.6"/>
+<via x="2.2225" y="13.335" extent="1-16" drill="0.6"/>
+<via x="0.9525" y="2.54" extent="1-16" drill="0.6"/>
+<via x="11.43" y="2.54" extent="1-16" drill="0.6"/>
+<via x="3.81" y="2.54" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="PB0/MOSI">
 <contactref element="SMD" pad="5"/>

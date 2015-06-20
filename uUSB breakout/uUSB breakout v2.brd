@@ -149,6 +149,7 @@ D-
 D+
 ID
 Gnd</text>
+<text x="5.08" y="11.43" size="1.27" layer="25">+</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -578,7 +579,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </autorouter>
 <elements>
 <element name="UUSB" library="SparkFun-Connectors" package="USB-AB-MICRO-SMD" value="" x="1.9685" y="6.38175" smashed="yes">
-<attribute name="NAME" x="4.15925" y="8.3185" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="3.84175" y="4.826" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="0.6985" y="11.84275" size="0.4064" layer="27"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X05" value="" x="12.065" y="13.335" smashed="yes" rot="R270">
@@ -589,9 +590,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="0.635" y="11.1125" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="7.62" y="12.065" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="SparkFun-Passives" package="0805" value="1.5k" x="6.6675" y="11.7475" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.842" y="10.9855" size="0.6096" layer="25" rot="R90"/>
-<attribute name="VALUE" x="6.25475" y="11.52525" size="0.4064" layer="27"/>
+<element name="R1" library="SparkFun-Passives" package="0805" value="1.5k" x="6.985" y="11.7475" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.1595" y="10.3505" size="0.6096" layer="25" rot="R90"/>
+<attribute name="VALUE" x="6.57225" y="11.52525" size="0.4064" layer="27"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0805" value="68" x="9.2075" y="10.795" smashed="yes">
 <attribute name="NAME" x="10.668" y="10.06475" size="0.6096" layer="25" rot="SR180"/>
@@ -630,9 +631,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="R2" pad="1"/>
 <contactref element="ZENER2" pad="C"/>
 <wire x1="4.8185" y1="7.03175" x2="5.76175" y2="7.03175" width="0.4064" layer="1"/>
-<wire x1="5.76175" y1="7.03175" x2="6.6675" y2="7.9375" width="0.4064" layer="1"/>
-<wire x1="6.6675" y1="7.9375" x2="6.6675" y2="10.8475" width="0.4064" layer="1"/>
-<wire x1="6.6675" y1="10.8475" x2="6.72" y2="10.795" width="0.4064" layer="1"/>
+<wire x1="5.76175" y1="7.03175" x2="6.985" y2="8.255" width="0.4064" layer="1"/>
+<wire x1="6.985" y1="8.255" x2="6.985" y2="10.8475" width="0.4064" layer="1"/>
+<wire x1="6.985" y1="10.8475" x2="6.72" y2="10.795" width="0.4064" layer="1"/>
 <wire x1="6.72" y1="10.795" x2="8.3075" y2="10.795" width="0.4064" layer="1"/>
 <wire x1="8.89" y1="12.5875" x2="8.89" y2="11.3775" width="0.4064" layer="1"/>
 <wire x1="8.89" y1="11.3775" x2="8.3075" y2="10.795" width="0.4064" layer="1"/>
@@ -696,10 +697,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C2" pad="1"/>
 <wire x1="12.065" y1="13.335" x2="11.43" y2="13.97" width="0.6096" layer="1"/>
 <wire x1="11.43" y1="13.97" x2="7.62" y2="13.97" width="0.6096" layer="1"/>
-<wire x1="7.62" y1="13.97" x2="6.6675" y2="13.0175" width="0.6096" layer="1"/>
-<wire x1="6.6675" y1="13.0175" x2="6.6675" y2="12.6475" width="0.6096" layer="1"/>
-<wire x1="4.445" y1="13.335" x2="5.98" y2="13.335" width="0.6096" layer="1"/>
-<wire x1="5.98" y1="13.335" x2="6.6675" y2="12.6475" width="0.6096" layer="1"/>
+<wire x1="7.62" y1="13.97" x2="6.985" y2="13.0175" width="0.6096" layer="1"/>
+<wire x1="6.985" y1="13.0175" x2="6.985" y2="12.6475" width="0.6096" layer="1"/>
+<wire x1="4.445" y1="13.335" x2="6.2975" y2="13.335" width="0.6096" layer="1"/>
+<wire x1="6.2975" y1="13.335" x2="6.985" y2="12.6475" width="0.6096" layer="1"/>
 <contactref element="SJ1" pad="2"/>
 <wire x1="7.935" y1="10.795" x2="7.935" y2="9.6749" width="0.6096" layer="16"/>
 <wire x1="7.935" y1="9.6749" x2="6.7564" y2="8.4963" width="0.6096" layer="16"/>
