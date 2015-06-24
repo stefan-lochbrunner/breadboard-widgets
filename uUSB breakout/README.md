@@ -7,4 +7,12 @@ Main functionality is to provide "VUSB circuitry" for AVR microcontrollers. Can 
 ####v2
 Allows for supplying different voltages by populating the bottom side with desired regulator. For 5V short solder jumper.
 
-<img src="uUSB breakout v2.sch.png" alt=".sch" height="200"> <img src="uUSB breakout v2.brd.png" alt=".brd" height="200">
+superseded by v3
+
+####v3
+Allows for supplying different voltages by populating the bottom side with desired regulator. The following modes are possible:
+- Supply rail and Vcc pin with 5V directly from USB (regulator not populated, short all 3 pads of solder jumper)
+- Supply regulator with 5V from USB which in turn supplies rail and Vcc pin (short center and top pad)
+- Supply regulator from rail and get regulated voltage on Vcc pin (short center and bottom pad)
+
+<img src="uUSB breakout v3.sch.png" alt=".sch" height="200"> <img src="uUSB breakout v3.brd.png" alt=".brd" height="200">
