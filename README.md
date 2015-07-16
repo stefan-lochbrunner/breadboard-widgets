@@ -28,7 +28,7 @@ Main functionality is to provide "VUSB circuitry" for AVR microcontrollers. Can 
 [**more info**](https://hackaday.io/project/6332-breadboard-widgets/log/19615-uusb-breakout)
 
 #####v1
-<img src="uUSB breakout/uUSB breakout v1.sch.png" alt=".sch" height="150"> <img src="uUSB breakout/uUSB breakout v1.brd.png" alt=".brd" height="150">
+<img src="USB/uUSB breakout/uUSB breakout v1.sch.png" alt=".sch" height="150"> <img src="USB/uUSB breakout/uUSB breakout v1.brd.png" alt=".brd" height="150">
 
 #####v3
 Allows for supplying different voltages by populating the bottom side with desired regulator. The following modes are possible:
@@ -37,4 +37,4 @@ Allows for supplying different voltages by populating the bottom side with desir
 - Supply regulator with 5V from USB which in turn supplies rail and Vcc pin (short center and top pad)
 - Supply regulator from rail and get regulated voltage on Vcc pin (short center and bottom pad)
 
-<img src="uUSB breakout/uUSB breakout v3.sch.png" alt=".sch" height="150"> <img src="uUSB breakout/uUSB breakout v3.brd.png" alt=".brd" height="150">
+<img src="USB/uUSB breakout/uUSB breakout v3.sch.png" alt=".sch" height="150"> <img src="USB/uUSB breakout/uUSB breakout v3.brd.png" alt=".brd" height="150">
