@@ -49,7 +49,7 @@ Main functionality is to provide "VUSB circuitry" for AVR microcontrollers. Can 
 ######v1
 <img src="USB/uUSB breakout/uUSB breakout v1.sch.png" alt=".sch" height="150"> <img src="USB/uUSB breakout/uUSB breakout v1.brd.png" alt=".brd" height="150">
 
-#####v2
+######v2
 Allows for supplying different voltages by populating the bottom side with desired regulator. For 5V short solder jumper.
 
 superseded by v3
@@ -90,4 +90,4 @@ Small board that incorporates a button and pull-resistor. Can be plugged into po
 ##### single button with SMD LED breakout
 added over complicated LED breakout to utilize board space. Also added arrow to indicate pull direction.
 
-<img src="single_button-dual_LED.sch.png" alt=".sch" height="180px"> <img src="single_button-dual_LED.brd.png" alt=".brd" height="180px">
+<img src="button/single_button-dual_LED.sch.png" alt=".sch" height="180px"> <img src="button/single_button-dual_LED.brd.png" alt=".brd" height="180px">
