@@ -9,11 +9,11 @@ USB version pin compatible with uUSB breakout.
 
 #####Standard:
 
-<img src="ATtiny prog board/ATtiny prog board.sch.png" alt=".sch" height="300px"><img src="ATtiny prog board/ATtiny prog board.brd.png" alt=".brd" height="300px">
+<img src="ATtiny prog board/ATtiny prog board.sch.png" alt=".sch" height="150px"><img src="ATtiny prog board/ATtiny prog board.brd.png" alt=".brd" height="150px">
 
 #####With USB:
 
-<img src="ATtiny prog board/ATtiny prog board with USB.sch.png" alt=".sch" height="300px"><img src="ATtiny prog board/ATtiny prog board with USB.brd.png" alt=".brd" height="300px">
+<img src="ATtiny prog board/ATtiny prog board with USB.sch.png" alt=".sch" height="150px"><img src="ATtiny prog board/ATtiny prog board with USB.brd.png" alt=".brd" height="150px">
 
 
 ####ISP breakout
@@ -27,7 +27,7 @@ Simple ISP breakout. Order of pins corresponds to ATmega328 DIP so breakout can 
 DPAK MOSFET breakout to be used as single channel PWM driver. Footprint should also fit SOT-223 package where pin 2 is internally connected to tab.
 [**more info**](https://hackaday.io/project/6332-breadboard-widgets/log/21781-mosfet-breakout-for-pwm-driver)
 
-<img src="MOSFET breakout/MOSFET breakout.sch.png" alt=".sch" height="200"> <img src="MOSFET breakout/MOSFET breakout.brd.png" alt=".brd" height="200">
+<img src="MOSFET breakout/MOSFET breakout.sch.png" alt=".sch" height="150"> <img src="MOSFET breakout/MOSFET breakout.brd.png" alt=".brd" height="150">
 
 
 ####SMD LED breakout
@@ -37,7 +37,7 @@ Straight forward SMD LED breakout. See also [**revised button board that can be 
 <img src="SMD LED breakout/single_LED.png" alt=".sch" height="100">
 
 #####multi
-<img src="SMD LED breakout/multiple_LED.brd.png" alt=".brd" height="200">
+<img src="SMD LED breakout/multiple_LED.brd.png" alt=".brd" height="150">
 
 
 ####USB breakouts
@@ -90,4 +90,4 @@ Small board that incorporates a button and pull-resistor. Can be plugged into po
 ##### single button with SMD LED breakout
 added over complicated LED breakout to utilize board space. Also added arrow to indicate pull direction.
 
-<img src="button/single_button-dual_LED.sch.png" alt=".sch" height="180px"> <img src="button/single_button-dual_LED.brd.png" alt=".brd" height="180px">
+<img src="button/single_button-dual_LED.sch.png" alt=".sch" height="150px"> <img src="button/single_button-dual_LED.brd.png" alt=".brd" height="150px">
