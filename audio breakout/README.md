@@ -2,7 +2,7 @@ Breakout boards for 3.5mm TRS & RCA jacks.
 
 Based on @sufzoli 's https://github.com/sufzoli/suf-electronics-breadboard
 
-<img src="jack35/jack35.png" alt=".sch" height="150px"> <img src="rca/rca.png" alt=".sch" height="150px">
+<img src="JACK35/JACK35.png" alt=".sch" height="150px"> <img src="RCA/RCA.png" alt=".sch" height="150px">
 
 Combined both into single board to save PCB space.
 
