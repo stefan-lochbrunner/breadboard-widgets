@@ -91,3 +91,11 @@ Small board that incorporates a button and pull-resistor. Can be plugged into po
 added over complicated LED breakout to utilize board space. Also added arrow to indicate pull direction.
 
 <img src="button/single_button-dual_LED.sch.png" alt=".sch" height="150px"> <img src="button/single_button-dual_LED.brd.png" alt=".brd" height="150px">
+
+
+####Negative voltage converter
+Included files of @sufzoli 's [**voltage inverter**](https://github.com/sufzoli/suf-electronics-USB-INV-PM) here and remade in Eagle for coherency. [**more info**](https://hackaday.io/project/6332-breadboard-widgets/log/22127-sufs-negative-voltage-converter)
+
+Based on ICL7660, inverts supply voltage.
+
+<img src="voltage inverter/EAGLE (remake)/ICL7660.sch.png" alt=".sch" height="150px"> <img src="voltage inverter/EAGLE (remake)/ICL7660.brd.png" alt=".sch" height="150px">
