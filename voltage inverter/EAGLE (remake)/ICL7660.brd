@@ -484,6 +484,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.89" y1="6.985" x2="12.065" y2="6.985" width="0.3048" layer="1"/>
 <wire x1="12.065" y1="6.985" x2="13.0175" y2="7.9375" width="0.4064" layer="1"/>
 <wire x1="13.0175" y1="7.9375" x2="13.0175" y2="8.407" width="0.4064" layer="1"/>
+<via x="7.62" y="8.5725" extent="1-16" drill="0.6"/>
+<via x="12.065" y="10.16" extent="1-16" drill="0.6"/>
+<via x="14.2875" y="2.8575" extent="1-16" drill="0.6"/>
+<via x="10.795" y="2.54" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="2"/>
