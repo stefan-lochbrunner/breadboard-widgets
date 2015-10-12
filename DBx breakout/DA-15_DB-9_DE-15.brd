@@ -144,6 +144,10 @@
 <hole x="11.43" y="35.71875" drill="3.2"/>
 <text x="11.160125" y="28.16225" size="1.778" layer="25" rot="R270">*</text>
 <hole x="11.58875" y="27.46375" drill="0.8"/>
+<text x="16.1925" y="0.635" size="1.778" layer="25" rot="R90">1</text>
+<text x="16.1925" y="2.06375" size="1.778" layer="26" rot="SMR270">1</text>
+<text x="16.1925" y="35.2425" size="1.778" layer="25" rot="R90">15</text>
+<text x="16.1925" y="37.94125" size="1.778" layer="26" rot="SMR270">15</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
