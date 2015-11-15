@@ -7,3 +7,10 @@ Simple ISP breakout. Order of pins corresponds to ATmega328 DIP so breakout can 
 **v1.1**
 
 <img src="ISPbreadboardAdapter_ATmega328compatible_v1.1.sch.png" alt=".sch" height="250px"><img src="ISPbreadboardAdapter_ATmega328compatible_v1.1.brd.png" alt=".brd" height="250px">
+
+
+**v1.2**
+
+Added two additional pins to ISP & breadboard headers to allow this board to be used as breakout for e.g. ESP-01's.
+
+<img src="ISPbreadboardAdapter_ATmega328compatible_v1.2.sch.png" alt=".sch" height="250px"><img src="ISPbreadboardAdapter_ATmega328compatible_v1.2.brd.png" alt=".brd" height="250px">
