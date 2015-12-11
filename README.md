@@ -16,6 +16,12 @@ USB version pin compatible with uUSB breakout.
 <img src="ATtiny prog board/ATtiny prog board with USB.sch.png" alt=".sch" height="150px"><img src="ATtiny prog board/ATtiny prog board with USB.brd.png" alt=".brd" height="150px">
 
 
+####DBx breakout
+Simple breakout for DA-15, DB/DE-9 & DE-15(VGA) connectors. DB-9 to be placed on DA-15 footprint. [**more info**](https://hackaday.io/project/6332/log/26554)
+
+<img src="DBx breakout/DA-15_DB-9_DE-15.brd.png" alt=".brd" height="150px"> <img src="DBx breakout/DA-15_DB-9_DE-15.sch.png" alt=".brd" height="150px">
+
+
 ####ISP breakout
 Simple ISP breakout. Order of pins corresponds to ATmega328 DIP so breakout can be plugged in next to it. Jumper wire required for RST. Also fits ATtiny45/85 with additional jumper for GND.
 [**more info**](https://hackaday.io/project/6332-breadboard-widgets/log/19660-isp-breakout)
@@ -44,6 +50,14 @@ Straight forward SMD LED breakout. See also [**revised button board that can be 
 
 #####multi
 <img src="SMD LED breakout/multiple_LED.brd.png" alt=".brd" height="150">
+
+
+####SOIC/TSSOP-16 breakout & protoboard
+Some variations on a SOIC-16 and TSSOP-16 breakout board.
+
+<img src="SMD breakout & proto board/SOIC_TSSOP-16.brd.png" alt=".brd" height="150">
+<img src="SMD breakout & proto board/SOIC_TSSOP-16 proto.brd.png" alt=".brd" height="150">
+<img src="SMD breakout & proto board/SOIC_TSSOP-16 adapter_and_proto.brd.png" alt=".brd" height="150">
 
 
 ####USB breakouts
