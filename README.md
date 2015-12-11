@@ -1,5 +1,5 @@
 A collection of widgets/adapters/breakouts to make prototyping easier.
-For more infos please see [**project page on HaD.io**](https://hackaday.io/project/6332-breadboard-widgets)
+For more infos please see [**project page on HaD.io**](https://hackaday.io/project/6332-breadboard-widgets). A panel with a subset of these booards can also be ordered from the [**DirtyPCBs store**](http://dirtypcbs.com/view.php?share=9791&accesskey=ab0e86ffb8323f031e5f15a2c98e4056)
 
 
 ####ATtiny prog board
