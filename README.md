@@ -22,6 +22,12 @@ Simple ISP breakout. Order of pins corresponds to ATmega328 DIP so breakout can 
 
 <img src="ISP breadboard adapter/ISPbreadboardAdapter_ATmega328compatible.sch.png" alt=".sch" height="150px"><img src="ISP breadboard adapter/ISPbreadboardAdapter_ATmega328compatible.brd.png" alt=".brd" height="150px">
 
+#####v1.2
+
+Added two additional pins to ISP & breadboard headers to allow this board to be used as breakout for e.g. ESP-01's.
+
+<img src="ISP breadboard adapter/ISPbreadboardAdapter_ATmega328compatible_v1.2.sch.png" alt=".sch" height="150px"><img src="ISP breadboard adapter/ISPbreadboardAdapter_ATmega328compatible_v1.2.brd.png" alt=".brd" height="150px">
+
 
 ####MOSFET breakout
 DPAK MOSFET breakout to be used as single channel PWM driver. Footprint should also fit SOT-223 package where pin 2 is internally connected to tab.
