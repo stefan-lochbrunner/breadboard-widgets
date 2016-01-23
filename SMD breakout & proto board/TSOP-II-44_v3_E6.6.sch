@@ -1592,6 +1592,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="7.62" y="88.9" size="2.54" layer="91">Vcc &amp; GND on this part are reversed!</text>
 </plain>
 <instances>
 <instance part="LEFT_INNER" gate="G$1" x="2.54" y="63.5" rot="MR180"/>
@@ -1601,8 +1602,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="TSOP-II-44" gate="G$1" x="43.18" y="55.88"/>
 <instance part="C1" gate="C" x="93.98" y="68.58"/>
 <instance part="C2" gate="C" x="99.06" y="68.58"/>
-<instance part="GND1" gate="1" x="45.72" y="0"/>
-<instance part="SUPPLY1" gate="VDD" x="40.64" y="88.9"/>
+<instance part="GND1" gate="1" x="35.56" y="81.28"/>
+<instance part="SUPPLY1" gate="VDD" x="48.26" y="7.62"/>
 <instance part="SUPPLY2" gate="VDD" x="93.98" y="78.74"/>
 <instance part="GND2" gate="1" x="99.06" y="58.42"/>
 </instances>
@@ -1610,16 +1611,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="TSOP-II-44" gate="G$1" pin="GND@2"/>
-<wire x1="43.18" y1="7.62" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="TSOP-II-44" gate="G$1" pin="GND@1"/>
-<wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="5.08" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<junction x="45.72" y="5.08"/>
-</segment>
 <segment>
 <pinref part="C1" gate="C" pin="2"/>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
@@ -1640,18 +1631,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15.24" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
 <label x="15.24" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="VDD" class="0">
 <segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="35.56" y1="83.82" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="TSOP-II-44" gate="G$1" pin="VCC@1"/>
 <wire x1="43.18" y1="86.36" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="TSOP-II-44" gate="G$1" pin="VCC@2"/>
 <wire x1="40.64" y1="83.82" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="86.36" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="VDD" pin="VDD"/>
+<wire x1="35.56" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
 <junction x="40.64" y="86.36"/>
 </segment>
+</net>
+<net name="VDD" class="0">
 <segment>
 <pinref part="C1" gate="C" pin="1"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
@@ -1671,6 +1663,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LEFT_INNER" gate="G$1" pin="3"/>
 <wire x1="15.24" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 <label x="15.24" y="71.12" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SUPPLY1" gate="VDD" pin="VDD"/>
+<wire x1="48.26" y1="7.62" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="TSOP-II-44" gate="G$1" pin="GND@2"/>
+<wire x1="43.18" y1="7.62" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="TSOP-II-44" gate="G$1" pin="GND@1"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+<junction x="45.72" y="5.08"/>
 </segment>
 </net>
 <net name="!CE" class="0">
