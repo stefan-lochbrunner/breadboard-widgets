@@ -1,0 +1,17 @@
+Part,Value,Device,Package,Description,Comment
+C2,,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages,optional; for RC-filter to reduce switch bouncing
+R1,,RESISTORR805-0805,R805,,Typical pull-up/down resistor, 10k Ohm
+R2,,RESISTORR805-0805,R805,,optional; for RC-filter to reduce switch bouncing
+R3,,RESISTORR805-0805,R805,,matching resistor for LED3, 500-1500 Ohm
+R4,,RESISTORR805-0805,R805,,matching resistor for LED4, 500-1500 Ohm
+,,,,,
+LED3,,LED-0805,LED-805,Light Emitting Diode,
+LED4,,LED-0805,LED-805,Light Emitting Diode,
+,,,,,
+S1,,SWITCH-MOMENTARY-2PTH,TACTILE-PTH,Various NO switches- pushbuttons, reed, etc,
+,,,,,
+2,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
+INNER,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
+INNER2,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
+OUTER,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
+SIG1,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
