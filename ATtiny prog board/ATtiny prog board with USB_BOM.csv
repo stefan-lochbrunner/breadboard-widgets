@@ -1,19 +1,19 @@
-Part;Value;Device;Package;Description;PROD_ID;VALUE;Comment
-DIP;;ATTINY45TINY85-20-DIP;DIP08;Atmel 8-pin 2/4/8kB flash uC;IC-09445;TINY85-20-DIP;optionally with socket
-or;;;;;;;
-SMD;;ATTINY45TINY85-20-SMT;SO08-EIAJ;Atmel 8-pin 2/4/8kB flash uC;IC-09092;Tiny85-20-SMT;
-;;;;;;;
-C1;10uF;CAPACITOR_NPOL-0805;C805;Non-Polarized capacitor in various packages;;;
-R1;10k;RESISTOR-0603;R603;;;;typical pull-up resistor
-R2;300;RESISTOR-0603;R603;;;;dependent on desired current through PWR_LED
-R3;300;RESISTOR-0603;R603;;;;dependent on desired current through PB1 LED
-;;;;;;;
-PWR_LED;;LED-0805;LED-805;Light Emitting Diode;;;
-PB1;;LED-0805;LED-805;Light Emitting Diode;;;
-;;;;;;;
-ISP;;AVR_SPI_PRG_6PTH;2X3;AVR ISP 6 Pin;;;
-PB;;M06SILK_FEMALE_PTH;1X06;Header 6;CONN-08437;;
-PWR;;PINHD-2X2;2X02;PIN HEADER;;;
-USB;;M05PTH;1X05;Header 5;;;only required if PCB was separated from uUSB breakout
-;;;;;;;
-RST;;TAC_SWITCHPTH;TACTILE-PTH;Momentary Switch;;;
+Part,Value,Device,Package,Description,PROD_ID,VALUE,Comment
+DIP,,ATTINY45TINY85-20-DIP,DIP08,Atmel 8-pin 2/4/8kB flash uC,IC-09445,TINY85-20-DIP,optionally with socket
+or,,,,,,,
+SMD,,ATTINY45TINY85-20-SMT,SO08-EIAJ,Atmel 8-pin 2/4/8kB flash uC,IC-09092,Tiny85-20-SMT,
+,,,,,,,
+C1,10uF,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages,,,
+R1,10k,RESISTOR-0603,R603,,,,typical pull-up resistor
+R2,300,RESISTOR-0603,R603,,,,dependent on desired current through PWR_LED
+R3,300,RESISTOR-0603,R603,,,,dependent on desired current through PB1 LED
+,,,,,,,
+PWR_LED,,LED-0805,LED-805,Light Emitting Diode,,,
+PB1,,LED-0805,LED-805,Light Emitting Diode,,,
+,,,,,,,
+ISP,,AVR_SPI_PRG_6PTH,2X3,AVR ISP 6 Pin,,,
+PB,,M06SILK_FEMALE_PTH,1X06,Header 6,CONN-08437,,
+PWR,,PINHD-2X2,2X02,PIN HEADER,,,
+USB,,M05PTH,1X05,Header 5,,,only required if PCB was separated from uUSB breakout
+,,,,,,,
+RST,,TAC_SWITCHPTH,TACTILE-PTH,Momentary Switch,,,
