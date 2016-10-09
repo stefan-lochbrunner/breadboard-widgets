@@ -1,0 +1,8 @@
+Part,Value,Device,Package,Description,PROD_ID,Comment
+T1,,MOSFET-NCHANNELFDD8780,DPAK,Common NMOSFET Parts,TRANS-09984,
+,,,,,,
+R1,1k,RESISTOR-0603,R603,,,I mostly omit this resistor and just short the two pads
+R2,10k,RESISTOR-0603,R603,,,
+,,,,,,
+CTRL,,M03PTH,1X03,Header 3,,
+OUT,,M02PTH,1X02,"Standard 2-pin 0.1 header. Use with""",,

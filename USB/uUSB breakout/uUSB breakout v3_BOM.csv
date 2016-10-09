@@ -1,0 +1,15 @@
+Part,Value,Device,Package,Description,Comment
+VREG,,V_REG_MIC2920,SOT223,MIC2920A (http://www.micrel.com/_PDF/mic2920.pdf) - 400mA output LDO Regulator,
+,,,,,
+C1,,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages,
+C2,,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages,
+R1,1.5k,RESISTOR0805-RES,805,Resistor,
+R2,68,RESISTOR0805-RES,805,Resistor,
+R3,68,RESISTOR0805-RES,805,Resistor,
+ZENER1,3.6V,ZENER-DIODESOD80C,SOD80C,Z-Diode,
+ZENER2,3.6V,ZENER-DIODESOD80C,SOD80C,Z-Diode,
+,,,,,
+J2,,M05PTH,1X05,Header 5,
+PWR,CON_HEADER_2X02-PTH,CON_HEADER_2X02-PTH,M2X2,,custom header with 2 longer pins - see https://hackaday.io/project/6332/log/19631
+SJ1,,SJ2W,SJ_2,SMD solder JUMPER,
+UUSB,,USB-AB,USB-AB-MICRO-SMD,This is a USB AB connector that is compatible with USB OTG. i.e. this connector can serve as a host or device,
