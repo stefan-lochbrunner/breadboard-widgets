@@ -1,15 +1,15 @@
-Part,Value,Device,Package,Description
-IC1,MCP16251/2,MCP16251/2,SOT-23-6,
-,,,,
-C1,4.7uF/6.3V,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages
-C2,10uF/6.3V,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages
-L1,4.7uH,INDUCTOR1007,1007,Inductors
-R1,1M,RESISTOR-0603,R603,
-R2,1.4M,RESISTOR-0603,R603,
-R3,1.69M,RESISTOR-0603,R603,
-R4,1M,RESISTOR-0603,R603,
-,,,,
-3.3V/5V,,M02PTH,1X02,"Standard 2-pin 0.1 header. Use with"""
-EN,,M01PTH,1X01,Header 1
-IN,,M02PTH,1X02,"Standard 2-pin 0.1 header. Use with"""
-PWR,,PINHD-2X2,2X02,PIN HEADER
+Part,Value,Device,Package,Description,Comment
+IC1,MCP16251/2,MCP16251/2,SOT-23-6,,
+,,,,,
+C1,4.7uF/6.3V,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages,
+C2,10uF/6.3V,CAPACITOR_NPOL-0805,C805,Non-Polarized capacitor in various packages,
+L1,4.7uH,INDUCTOR1007,1007,Inductors,
+R1,1M,RESISTOR-0603,R603,,
+R2,1.4M,RESISTOR-0603,R603,,
+R3,1.69M,RESISTOR-0603,R603,,
+R4,1M,RESISTOR-0603,R603,,
+,,,,,
+3.3V/5V,,M02PTH,1X02,"Standard 2-pin 0.1 header. Use with""",
+EN,,M01PTH,1X01,Header 1,
+IN,,M02PTH,1X02,"Standard 2-pin 0.1 header. Use with""",
+PWR,,PINHD-2X2,2X02,PIN HEADER,custom header with 2 longer pins - see https://hackaday.io/project/6332/log/19631
