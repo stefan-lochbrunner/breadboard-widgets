@@ -13,7 +13,7 @@ PB1,,LED-0805,LED-805,Light Emitting Diode,,,
 ,,,,,,,
 ISP,,AVR_SPI_PRG_6PTH,2X3,AVR ISP 6 Pin,,,
 PB,,M06SILK_FEMALE_PTH,1X06,Header 6,CONN-08437,,
-PWR,,PINHD-2X2,2X02,PIN HEADER,,,
+PWR,,PINHD-2X2,2X02,PIN HEADER,,,custom header with 2 longer pins - see https://hackaday.io/project/6332/log/19631
 USB,,M05PTH,1X05,Header 5,,,only required if PCB was separated from uUSB breakout
 ,,,,,,,
 RST,,TAC_SWITCHPTH,TACTILE-PTH,Momentary Switch,,,
