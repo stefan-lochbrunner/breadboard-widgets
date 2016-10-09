@@ -8,7 +8,7 @@ R4,,RESISTORR805-0805,R805,,matching resistor for LED4 - 500-1500 Ohm
 LED3,,LED-0805,LED-805,Light Emitting Diode,
 LED4,,LED-0805,LED-805,Light Emitting Diode,
 ,,,,,
-S1,,SWITCH-MOMENTARY-2PTH,TACTILE-PTH,Various NO switches- pushbuttons, reed, etc,
+S1,,SWITCH-MOMENTARY-2PTH,TACTILE-PTH,
 ,,,,,
 2,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
 INNER,,PINHD-1X1CB,1X01-CLEANBIG,"Pin header 1x1 for 0.1 spacing""",
