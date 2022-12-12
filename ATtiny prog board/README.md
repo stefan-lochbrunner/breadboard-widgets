@@ -7,10 +7,8 @@ USB functionality of USB version enabled through [uUSB breakout](../uUSB breakou
 
 #### Standard:
 
-<img src="ATtiny prog board.sch.png" alt=".sch" height="300px">
-<img src="ATtiny prog board.brd.png" alt=".brd" height="300px">
+<img src="ATtiny prog board.sch.png" alt=".sch" height="300px"><img src="ATtiny prog board.brd.png" alt=".brd" height="300px">
 
 #### With USB:
 
-<img src="ATtiny prog board with USB.sch.png" alt=".sch" height="300px">
-<img src="ATtiny prog board with USB.brd.png" alt=".brd" height="300px">
+<img src="ATtiny prog board with USB.sch.png" alt=".sch" height="300px"><img src="ATtiny prog board with USB.brd.png" alt=".brd" height="300px">
